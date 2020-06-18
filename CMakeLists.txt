@@ -16,6 +16,8 @@ project(Computestars)
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++17 -stdlib=libc++")
 
+#set_property(Computestars PROPERTY CXX_STANDARD 17)
+
 set(FilesStars 
   #LibraryMath/VectorQuaternion.cpp
    Mainsample/FirstMain.cpp
@@ -24,6 +26,8 @@ set(FilesStars
 
 add_executable(Computestars ${FilesStars} )
 
+set_property(TARGET Computestars PROPERTY CXX_STANDARD 17)
+set(CXX_STANDARD_REQUIRED ON)
 
 target_include_directories(Computestars PUBLIC 
                       LibraryMath/
