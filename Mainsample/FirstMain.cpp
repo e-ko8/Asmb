@@ -6,7 +6,7 @@
 #include <vector>
 #include <chrono>
 #include <random>
-// clang :  C:\Users\loskutnikov\AppData\Roaming\ClangPowerTools\LLVM\LLVM10.0.0\bin
+
 // msvc:  
 // gcc: 
 
